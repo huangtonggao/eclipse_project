@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <AutoCompleteTextView 
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Please select the books"
+        android:dropDownHorizontalOffset="10dp"
+        android:completionThreshold="1"
+        android:textColor="#f00"
+        android:popupBackground="#f00"
+
+        />
+    <MultiAutoCompleteTextView 
+        android:id="@+id/mauto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="1"
+        android:textColor="#0f0"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="htg">
+      <map>
+        <entry key="title" value="test"/>
+      </map>
+      <node name="test">
+        <map/>
+      </node>
+    </node>
+    <node name="htg.test">
+      <map/>
+    </node>
+    <node name="htg.test.sunzi">
+      <map/>
+    </node>
+  </root>
+</preferences>

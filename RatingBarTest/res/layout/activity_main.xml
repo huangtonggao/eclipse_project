@@ -1,0 +1,29 @@
+<LinearLayout
+    android:id="@+id/linearLayout1" 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        android:src="@drawable/p1"
+        />
+    
+    <RatingBar 
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="1"
+        android:stepSize="0.5"
+        android:max="250"
+        android:progress="250"
+        />
+    
+    
+    
+</LinearLayout>

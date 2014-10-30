@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <TableLayout
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="1"
+        android:stretchColumns="2" 
+        android:collapseColumns="1">
+        <Button 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Button1"    
+        />
+        
+        <TableRow>
+        <Button 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Button1"    
+        />
+        <Button 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Button2"    
+        />
+        <Button 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Button3"    
+        />
+        
+        </TableRow>
+        
+    </TableLayout>
+
+
+
+</LinearLayout>

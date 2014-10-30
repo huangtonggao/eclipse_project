@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prev1"
+        android:text="启动前一个，不销毁自己" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prev2"
+        android:text="启动前一个，销毁自己" />
+    
+    <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="finish"
+       android:text="不启动前一个，销毁自己" />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PS: 启动前一个，会导致堆栈中有两个StartActivity，这样按返回键需要两次退出StartActivity才能退出程序"
+        />
+    
+    
+
+</LinearLayout>

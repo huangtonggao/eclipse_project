@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="文字显示组">
+        
+        <SwitchPreference 
+            android:key="autoSave"
+            android:title="自动滚屏"
+            android:summaryOn="自动滚屏：开启"
+            android:summaryOff="自动滚屏：关闭"
+            android:defaultValue="true"
+            />
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

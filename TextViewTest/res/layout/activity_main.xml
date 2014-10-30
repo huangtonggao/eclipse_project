@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20pt"
+        android:text="user name: " 
+        android:background="@drawable/ic_launcher"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:textSize="10pt"
+        android:selectAllOnFocus="true"
+        android:hint="please input the phone numbers"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_launcher" />
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:textSize="10pt"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:ellipsize="middle"
+        android:textColor="#0f0"/>   
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="邮箱：huangtonggao@126.com 15861813308" 
+        android:shadowColor="#00f"
+        android:shadowDx="10.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="3.0"/>
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:textSize="10pt"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:layout_height="wrap_content"
+        android:password="true"/>   
+        
+    <CheckedTextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="可勾选的文本"
+        android:checkMark="@drawable/ic_launcher"/>
+        
+    
+    
+    
+</LinearLayout>
